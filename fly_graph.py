@@ -1,3 +1,4 @@
+#作成したデータをもとにグラフを作るプログラム
 import numpy as np
 import matplotlib.pyplot as plt
 plt.rcParams["mathtext.fontset"] = "cm"
