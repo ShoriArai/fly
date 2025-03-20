@@ -9,11 +9,11 @@ gformat = "png"
 dpi = 300
 
 data = np.loadtxt(fname)
-t = data[:,0]
-x = data[:,1]
-y = data[:,2]
-vx = data[:,3]
-vy = data[:,4]
+t = data[:,0]   #時間
+x = data[:,1]   #x座標
+y = data[:,2]   #y座標
+vx = data[:,3]  #x方向の速度
+vy = data[:,4]  #y方向の速度
 
 plt.plot(x,y)
 plt.title("$\mathrm{Orbit}$", fontsize=20)
