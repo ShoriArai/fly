@@ -1,3 +1,4 @@
+//飛行シミュレーションデータを作成するプログラム
 #include <stdio.h>
 
 int main(void){
