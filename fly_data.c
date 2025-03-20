@@ -17,7 +17,7 @@ int main(void){
     Vy = 0.0;       //y方向の初速度
     tmax = 60.0;    //時間の最大値（無限ループを防ぐ）
     dt = 0.01;      //時間のきざみ幅
-    char fname[] = "fly_data.txt";
+    char fname[] = "fly_data.txt";    //ファイル名
     
 
     //Vx：x方向の初速度, S：ウイングスーツの面積, ro：大気の密度, g：重力加速度
