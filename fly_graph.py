@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 plt.rcParams["mathtext.fontset"] = "cm"
 
-fname = "fly_data.txt"
-gname = "graph.png"
-gformat = "png"
-dpi = 300
+fname = "fly_data.txt"  #読み込むファイル名
+gname = "graph.png"     #画像ファイル名
+gformat = "png"         #ファイル形式
+dpi = 300               #画質
 
 data = np.loadtxt(fname)
 t = data[:,0]   #時間
