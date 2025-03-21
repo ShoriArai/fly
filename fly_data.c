@@ -1,4 +1,5 @@
 //飛行シミュレーションデータを作成するプログラム
+//参考文献：https://journals.le.ac.uk/index.php/pst/article/view/2127
 #include <stdio.h>
 
 int main(void){
