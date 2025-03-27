@@ -79,7 +79,6 @@ int main(void){
         y = y + (k0[1] + 2.0 * k1[1] + 2.0 * k2[1] + k3[1]) / 6.0;
         Vx = Vx + (k0[2] + 2.0 * k1[2] + 2.0 * k2[2] + k3[2]) / 6.0;
         Vy = Vy + (k0[3] + 2.0 * k1[3] + 2.0 * k2[3] + k3[3]) / 6.0;
-        //printf("%8.4f %8.4f %8.4f %8.4f %8.4f\n",t+dt,x,y,Vx,Vy);
         fprintf(fp_out, "%8.4f %8.4f %8.4f %8.4f %8.4f\n", t + dt, x, y, Vx, Vy);
         if (y < 0) break;
     }

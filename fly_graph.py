@@ -21,4 +21,4 @@ plt.title("$\mathrm{}\ \mathrm{} = {}$" .format("{flight}","{time}",t[-1]),fonts
 plt.xlabel("$x$", fontsize=18)
 plt.ylabel("$y$", fontsize=18)
 plt.savefig(gname, format=gformat, dpi=dpi) #画像の保存
-plt.show()
+#plt.show()
