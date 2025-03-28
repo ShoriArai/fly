@@ -30,7 +30,7 @@ int main(void){
     //sample1.txt：ウサインボルトは地球で飛べるのか？
     //sample2.txt：ウサインボルトは土星の衛星タイタンで飛べるのか？
     //sample3.txt：新幹線ほどの速さで助走をつければ地球でも飛べるのか？
-    //sample4.txt：ウイングスーツの面積を100倍にすれば、地球でも飛べるのか？
+    //sample4.txt：ウイングスーツの面積を100倍にすれば、常人でも地球でも飛べるのか？
     char fname_in[] = "sample2.txt";  //入力ファイル名（必要に応じて変更）
     fp_in = fopen(fname_in, "r");
     fscanf(fp_in,"%f%f%f%f", &Vx, &S, &ro, &g);
